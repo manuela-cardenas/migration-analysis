@@ -14,9 +14,13 @@ This analysis examines migration flows to the Gulf Cooperation Council (GCC) sta
 
 How have female migrant labor pools shifted across destination countries and origin regions? What does this reveal about labor market substitution and the "Care Drain" phenomenon?
 
-### Key Finding
+### Key Findings
 
-Indonesian domestic workers (traditionally dominant) have been increasingly replaced by Ethiopian workers, suggesting policy shifts, labor cost differentials, or supply-side constraints in Indonesia.
+- Indonesian domestic workers (traditionally dominant) have been increasingly replaced by Ethiopian workers, suggesting policy shifts, labor cost differentials, or supply-side constraints in Indonesia.
+- Female migration to Qatar and UAE has grown substantially, particularly concentrated in domestic work and care sectors, which remain severely undercounted in official statistics.
+- Arab Gulf states show significant gender disparities in labor migration patterns, with women representing a far larger share than regional averages suggest.
+- Domestic work remains severely undercounted in official migration statistics, 
+  masking a largely female workforce
 
 ## Data Sources
 
