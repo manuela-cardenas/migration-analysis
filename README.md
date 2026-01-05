@@ -45,6 +45,7 @@ text
    source("code/01_data_import_clean.R")
    source("code/02_exploratory_analysis.R")
    source("code/03_visualizations.R")
+
 Outputs will appear in outputs/figures/ and outputs/tables/.
 
 Key Visualizations
@@ -66,6 +67,7 @@ Key packages: tidyverse, ggplot2, dplyr, readxl, janitor
 Data format: Excel (.xlsx) and CSV
 
 Author's Notes
+
 This analysis aims to bridge quantitative rigor with institutional understanding. The “care drain” visualizations explore how labor market substitution operates at the intersection of policy, economics, and gender. The code is written in French due to the academic context, while documentation is in English for accessibility.
 
 License
