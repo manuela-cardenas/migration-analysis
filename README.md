@@ -32,29 +32,41 @@ How have female migrant labor pools shifted across destination countries and ori
 ├── code/ # 4 R scripts (modular pipeline) ├── data/ │ ├── raw/ # Raw data files (not committed to Git) │ └── processed/ # Cleaned data (auto-generated) ├── outputs/ │ ├── figures/ # 7 PNG visualizations │ └── tables/ # Summary tables (CSV) └── README.md # This file
 
 text
+Here you go, fully cleaned so you can copy‑paste into README.md:
+
+text
 ## Quick Start
 
-1. **Install packages:**
+1. **Install packages and run the pipeline**
+
    ```r
-   source("code/00_setup.R")
-	2	Download data from UN DESA and ILOSTAT into data/raw/
-	3	Run the pipeline:   r source("code/01_data_import_clean.R")
-	4	source("code/02_exploratory_analysis.R")
-	5	source("code/03_visualizations.R")
-	6	    
-	7	Outputs will appear in outputs/figures/ and outputs/tables/
+   source("code/00_setup.R")          # install/load packages
+   # Download data from UN DESA and ILOSTAT into data/raw/
+   source("code/01_data_import_clean.R")
+   source("code/02_exploratory_analysis.R")
+   source("code/03_visualizations.R")
+Outputs will appear in outputs/figures/ and outputs/tables/.
+
 Key Visualizations
-	1	Stacked Area Charts (3) — Migration trends by origin country (Saudi Arabia, Qatar, UAE)
-	2	Gender Composition — Female share of migrants over time
-	3	Sector Growth Index — Employment growth by sector (Qatar, 2004–2020)
-	4	Care Drain Hypothesis — Ethiopian vs Indonesian substitution patterns
-	5	UAE Sector Employment — Distribution by gender and sector
+Stacked area charts — migration trends by origin country (Saudi Arabia, Qatar, UAE)
+
+Gender composition — female share of migrants over time
+
+Sector growth index — employment growth by sector (Qatar, 2004–2020)
+
+“Care drain” — Ethiopian vs Indonesian substitution patterns
+
+UAE sector employment — distribution by gender and sector
+
 Technical Stack
-	•	Language: R (4.0+)
-	•	Key Packages: tidyverse, ggplot2, dplyr, readxl, janitor
-	•	Data Format: Excel (.xlsx) and CSV
+Language: R (4.0+)
+
+Key packages: tidyverse, ggplot2, dplyr, readxl, janitor
+
+Data format: Excel (.xlsx) and CSV
+
 Author's Notes
-This analysis bridges quantitative rigor with institutional understanding. The "Care Drain" reveals how labor market substitution operates at the intersection of policy, economics, and gender.
-The code is written in French due to academic context while documentation is in English for international accessibility.
+This analysis aims to bridge quantitative rigor with institutional understanding. The “care drain” visualizations explore how labor market substitution operates at the intersection of policy, economics, and gender. The code is written in French due to the academic context, while documentation is in English for accessibility.
+
 License
 Educational use. Data sources retain their original licenses.
