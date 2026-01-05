@@ -1,6 +1,4 @@
-📄 PART 3: README.md
 
-text
 # Migration Analysis: Gender, Labor Substitution, and the "Care Drain"
 
 **Author:** Manuela Cárdenas Martínez  
