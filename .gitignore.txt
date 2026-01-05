@@ -1,0 +1,12 @@
+## 🔧 PART 4: .gitignore
+
+Large data files (download locally, don't commit)
+data/raw/.xlsx data/raw/.csv data/processed/*.csv
+Generated outputs
+outputs/figures/.png outputs/tables/.csv
+R session files
+.Rhistory .RData .Rapp.history *.Rproj.user/
+OS files
+.DS_Store Thumbs.db
+IDE
+.vscode/ .idea/
