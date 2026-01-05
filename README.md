@@ -53,6 +53,6 @@ Technical Stack
 	•	Data Format: Excel (.xlsx) and CSV
 Author's Notes
 This analysis bridges quantitative rigor with institutional understanding. The "Care Drain" reveals how labor market substitution operates at the intersection of policy, economics, and gender.
-The code is written in French to reflect the student's academic context (Sorbonne) while documentation is in English for international accessibility.
+The code is written in French due to academic context while documentation is in English for international accessibility.
 License
 Educational use. Data sources retain their original licenses.
