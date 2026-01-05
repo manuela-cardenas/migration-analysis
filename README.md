@@ -48,7 +48,8 @@ text
 
 Outputs will appear in outputs/figures/ and outputs/tables/.
 
-Key Visualizations
+## Key Visualizations
+
 Stacked area charts — migration trends by origin country (Saudi Arabia, Qatar, UAE)
 
 Gender composition — female share of migrants over time
@@ -59,16 +60,22 @@ Sector growth index — employment growth by sector (Qatar, 2004–2020)
 
 UAE sector employment — distribution by gender and sector
 
-Technical Stack
+## Technical Stack
+
 Language: R (4.0+)
 
-Key packages: tidyverse, ggplot2, dplyr, readxl, janitor
+## Key packages: 
 
-Data format: Excel (.xlsx) and CSV
+tidyverse, ggplot2, dplyr, readxl, janitor
 
-Author's Notes
+## Data format: 
+
+Excel (.xlsx) and CSV
+
+## Author's Notes
 
 This analysis aims to bridge quantitative rigor with institutional understanding. The “care drain” visualizations explore how labor market substitution operates at the intersection of policy, economics, and gender. The code is written in French due to the academic context, while documentation is in English for accessibility.
 
-License
+## License
+
 Educational use. Data sources retain their original licenses.
