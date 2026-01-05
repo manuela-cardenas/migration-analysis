@@ -31,10 +31,6 @@ How have female migrant labor pools shifted across destination countries and ori
 
 ├── code/ # 4 R scripts (modular pipeline) ├── data/ │ ├── raw/ # Raw data files (not committed to Git) │ └── processed/ # Cleaned data (auto-generated) ├── outputs/ │ ├── figures/ # 7 PNG visualizations │ └── tables/ # Summary tables (CSV) └── README.md # This file
 
-text
-Here you go, fully cleaned so you can copy‑paste into README.md:
-
-text
 ## Quick Start
 
 1. **Install packages and run the pipeline**
