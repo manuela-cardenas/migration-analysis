@@ -9,9 +9,9 @@
 
 ## Overview
 
-This project analyzes migration flows to Gulf Cooperation Council (GCC) countries—Saudi Arabia, Qatar, and the United Arab Emirates—from 1990 to 2024, with a focus on gender composition and labor market structure.
+This project studies migration flows to Gulf Cooperation Council (GCC) countries—Saudi Arabia, Qatar, and the United Arab Emirates—from 1990 to 2024, with a focus on gender composition and origin-destination structure.
 
-The analysis examines how female migrant labor stocks vary across destination countries and origin regions, and whether observed patterns are consistent with changing labor demand in domestic and care-related sectors.
+The analysis shows that female migration is not distributed uniformly across source countries or destinations. Instead, it is organized through distinct corridors that evolve differently over time, suggesting differentiated labor demand across GCC countries and migrant origins.
 
 ## Research Questions
 
@@ -106,7 +106,9 @@ The project generates figures including:
 
 ## Why This Project Matters
 
-This project connects gender, migration, and labor-market structure in a region where feminized labor migration is often statistically underrepresented. It aims to combine quantitative analysis with a development-oriented reading of labor substitution and care work.
+This project makes visible the origin-destination structure of female migration to the Gulf, which is often obscured in aggregate statistics.
+
+By combining migration stock data with sectoral labor information, it provides a descriptive view of how gendered migration corridors relate to domestic and care-related work. The project therefore contributes to a more precise understanding of feminized labor migration in the GCC region.
 
 ## License
 
