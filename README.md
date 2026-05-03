@@ -1,4 +1,4 @@
-# Migration Analysis: Gender, Labor Substitution, and the "Care Drain"
+# Migration Analysis: Gender, Labor Substitution, and the “Care Drain”
 
 **Author:** Manuela Cárdenas Martínez  
 **Institution:** Université Paris 1 Panthéon-Sorbonne, M1 Development Studies (Agroeconomic Development)  
@@ -11,15 +11,15 @@
 
 This project analyzes migration flows to Gulf Cooperation Council (GCC) countries—Saudi Arabia, Qatar, and the United Arab Emirates—from 1990 to 2024, with a focus on gender composition and labor market structure.
 
-The analysis explores how female migrant labor stocks vary across destination countries and origin regions, and whether observed patterns are consistent with changing labor demand in domestic and care-related sectors.
+The analysis examines how female migrant labor stocks vary across destination countries and origin regions, and whether observed patterns are consistent with changing labor demand in domestic and care-related sectors.
 
-## Research questions
+## Research Questions
 
 - How has the gender composition of migrant populations evolved across GCC destination countries?
 - Which origin countries have become more prominent in female migration flows over time?
 - To what extent are these patterns consistent with labor market substitution in domestic and care work?
 
-## Data sources
+## Data Sources
 
 - **UN DESA Global Migration Database:** migrant stock by destination, origin, sex, and year (1990–2024)
 - **ILOSTAT:** employment by sex, occupation, and economic activity for the UAE
@@ -37,14 +37,14 @@ The project uses a reproducible R pipeline to:
 
 This is a **descriptive** analysis. The project identifies patterns that may be consistent with labor substitution and “care drain” dynamics, but it does not claim causal identification.
 
-## Main findings
+## Main Findings
 
 - Female migration to Qatar and the UAE increased substantially over the study period.
-- Female migrant stocks from countries such as Ethiopia grew strongly in some GCC destinations, while Indonesian flows became less dominant.
+- Female migrant stocks from countries such as Ethiopia grew strongly in some GCC destinations, while Indonesian flows appeared less prominent over time.
 - Gendered migration patterns appear more concentrated in labor-market segments linked to domestic and care work than aggregate migration statistics alone would suggest.
-- Official migration and labor statistics likely undercount domestic work, which limits full measurement of feminized labor migration.
+- Official migration and labor statistics likely undercount domestic work, which limits the full measurement of feminized labor migration.
 
-## Repository structure
+## Repository Structure
 
 ```text
 code/
@@ -64,7 +64,7 @@ outputs/
 README.md
 ```
 
-## How to run the project
+## How to Run the Project
 
 1. Clone the repository.
 2. Place the raw UN DESA and ILOSTAT files in `data/raw/`.
@@ -79,7 +79,7 @@ source("code/03_visualizations.R")
 
 Outputs will be saved in `outputs/figures/` and `outputs/tables/`.
 
-## Selected outputs
+## Selected Outputs
 
 The project generates figures including:
 
@@ -96,7 +96,14 @@ The project generates figures including:
 - Some interpretations rely on descriptive patterns rather than causal estimation.
 - Cross-source comparability may vary across countries and years.
 
-## Why this project matters
+## Skills Demonstrated
+
+- Data cleaning and reshaping in R
+- Descriptive migration analysis
+- Data visualization and reproducible reporting
+- Policy-oriented interpretation of demographic data
+
+## Why This Project Matters
 
 This project connects gender, migration, and labor-market structure in a region where feminized labor migration is often statistically underrepresented. It aims to combine quantitative analysis with a development-oriented reading of labor substitution and care work.
 
