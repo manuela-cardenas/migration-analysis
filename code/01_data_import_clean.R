@@ -4,14 +4,14 @@
 
 source("code/00_setup.R")
 
-# --- DÉFI  DE LA STRUCTURE (pcq le fichier deraw data est fou) --------
+# --- DÉFI  DE LA STRUCTURE ( le fichier raw data n'est pas évident) --------
 # années 
 annees <- c(1990, 1995, 2000, 2005, 2010, 2015, 2020, 2024)
 
 # colonnes 
 meta_cols <- c("SortOrder", "Dest_Region", "Notes", "Dest_Code", "Type", "Origin_Region", "Origin_Code")
 
-# nombs colonnes a main pour eviter la folie du doc excel lol 
+# nombs colonnes a main, plus facile à wrangle
 noms_colonnes <- c(
   meta_cols,
   paste0("Both_", annees),   # Crée Both_1990...
@@ -21,13 +21,13 @@ noms_colonnes <- c(
 
 # --- IMPORTATION DES DONNÉES -----------------------------------------------
 # faut sauter les 11 premieres lignes de 'metadonnees' (en gros les donnees internes du fichier xls)
-# verifier si c'est bien 1 a 11, c est bon pour le coup
+# verifier si c'est bien 1 a 11, c'est bon pour le coup
 raw_data <- read_excel("data/raw/migration_data.xlsx", sheet = 1, skip = 11, col_names = noms_colonnes)
 
 # --- TIDY DATA -------------------------------------------------
-# on passe des colonnes qui est chiannttt a un format en lignes
+# on passe des colonnes  a un format en lignes
 tidy_data <- raw_data %>%
-  filter(!is.na(Dest_Region)) %>% # chao lignes vides
+  filter(!is.na(Dest_Region)) %>% # enlever lignes vides
   
   pivot_longer(
     cols = starts_with(c("Both_", "Male_", "Female_")),
