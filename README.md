@@ -39,10 +39,11 @@ This is a **descriptive** analysis. The project identifies patterns that may be 
 
 ## Main Findings
 
-- Female migration to Qatar and the UAE increased substantially over the study period.
-- Female migrant stocks from countries such as Ethiopia grew strongly in some GCC destinations, while Indonesian flows appeared less prominent over time.
-- Gendered migration patterns appear more concentrated in labor-market segments linked to domestic and care work than aggregate migration statistics alone would suggest.
-- Official migration and labor statistics likely undercount domestic work, which limits the full measurement of feminized labor migration.
+- Female migration to GCC destinations increased substantially over the study period, especially in Saudi Arabia, the UAE, and Qatar.
+- The composition of female migration is highly origin-specific: different source countries follow distinct trajectories across destinations, suggesting differentiated bilateral labor demand rather than a uniform migration pattern.
+- In some corridors, Ethiopian female migration became more prominent over time while Indonesian flows became less central, indicating a reconfiguration of origin-destination patterns in female labor migration.
+- The analysis suggests that domestic and care-related labor markets are structured through specific migration corridors that are not visible in aggregate migration statistics alone.
+- Official migration and labor data likely undercount domestic work, which limits the full measurement of feminized labor migration.
 
 ## Repository Structure
 
